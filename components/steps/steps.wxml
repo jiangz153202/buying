@@ -1,0 +1,14 @@
+<!--components/steps/steps.wxml-->
+<view class="root">
+  <view class="steps">
+    <view class="subtract">
+      <view>-</view>
+    </view>
+    <view>
+      10
+    </view>
+    <view class="add">
+      <view>+</view>
+    </view>
+  </view>
+</view>

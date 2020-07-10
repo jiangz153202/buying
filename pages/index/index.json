@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "custom-popover": "../../components/popover/popover",
+    "custom-swiper": "../../components/swiper2video/index",
+    "custom-steps": "../../components/steps/steps"
+  }
+  
+}

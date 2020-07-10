@@ -1,0 +1,11 @@
+<!--components/swiper2video/index.wxml-->
+<view class="global-swiper">
+  <swiper>
+    <swiper-item>
+      1
+    </swiper-item>
+    <swiper-item>
+      2
+    </swiper-item>
+  </swiper>
+</view>

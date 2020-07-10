@@ -1,0 +1,17 @@
+/* components/steps/steps.wxss */
+
+.root{
+  --button-width:500px;
+  --button-height:300px;
+  --toggle-diameter:260px;
+  --toggle-wider:340px;
+}
+.steps{
+  width: var(--button-width);
+  height: var(--button-height);
+  background: #000;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}

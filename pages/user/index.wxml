@@ -1,0 +1,5 @@
+<!--pages/user/index.wxml-->
+<text>pages/user/index.wxml</text>
+<view>
+  {{ users.nickName }}
+</view>

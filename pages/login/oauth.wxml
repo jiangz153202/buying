@@ -1,0 +1,14 @@
+<!--pages/login/oauth.wxml-->
+<view>
+  <view class="img-wrap">
+    <image src="http://imgwm.dddingjiu.com/uploads/images/nwb_logo_001.jpg" mode="widthFix"></image>
+  </view>
+  <view class="tac">
+    全民酒仓需要你的授权，获取登录信息
+  </view>
+  <view class="btns-wrap">
+    <button class="btn" bindgetuserinfo="oauth" open-type="getUserInfo">授权登录</button>
+
+    <button class="btn cancel" bindtap="cancel">取消并返回主页</button>
+  </view>
+</view>

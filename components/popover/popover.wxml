@@ -1,0 +1,21 @@
+
+<view class="mask {{isShow ? 'active': ''}}">
+</view>
+<view class="close {{isShow ? 'active': ''}}" bindtap="hidePop">
+</view>
+<view class="container {{isShow ? 'active': ''}}">
+    
+    <image src="./image/banner.jpg" mode="widthFix" class="banner" />
+   
+    <view class="lianjie">
+    </view>
+    <view class="footer">
+        <view class="btn btn-share">
+            立即分享 {{isShow ? 'xx':'yy'}}
+        </view>
+        <view class="btn btn-buy">
+            立即抢购
+        </view>
+    </view>
+</view>
+

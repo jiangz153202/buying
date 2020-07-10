@@ -1,0 +1,9 @@
+
+<view>
+    <view class="navigateBar">
+    12314
+    </view>
+    <custom-swiper></custom-swiper>
+    <custom-steps></custom-steps>
+</view>
+

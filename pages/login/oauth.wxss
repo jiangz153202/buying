@@ -1,0 +1,40 @@
+/* pages/login/oauth.wxss */
+
+.img-wrap {
+  padding: 200rpx 120rpx 50rpx;
+  text-align: center;
+}
+.img-wrap image {
+  width: 200rpx;
+  border-radius: 50%;
+}
+
+.btns-wrap {
+  padding: 30rpx 30rpx;
+}
+
+.tac{
+  color: #333;
+  font-size: 28rpx;
+}
+.btn {
+  padding: 10rpx 40rpx;
+  background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+  /* border: 1px solid #1AAD19; */
+  color: #fff;
+  font-size: 14px;
+  border-radius: 30px;
+  outline: none;
+  text-align: center;
+  box-shadow: 0 0 10rpx #e4e4e4;
+}
+.btn.cancel {
+  margin-top: 40rpx;
+  background: #f8f8f8;
+ 
+  color: #999;
+  box-shadow: 0 0 10rpx #e4e4e4;
+}
+button::after{
+  border:none;
+}
